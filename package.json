@@ -6,5 +6,8 @@
     "dev:server": "npm --prefix server run dev",
     "dev:client": "npm --prefix client run dev",
     "build": "npm --prefix client run build && npm --prefix server run build"
+  },
+  "dependencies": {
+    "serverless-http": "^3.2.0"
   }
 }
